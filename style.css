@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol {
+  margin-left: 25px;
+}
+
+body {
+  background-color: #fef6e4;
+  color: #172c66;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  margin: 20px;
+}
+
+/*change img height to 300px */
+img {
+  height: 300px;
+  width: auto;
+}
+/*change subtitle font size to larger than the default. */
+.subtitle {
+  font-size: 1.3em;
+}
+/*Change the time to font-weight: bold;*/
+.time {
+  font-weight: 700;
+}
+
+/*select the li inside of ingredients to list-style: square*/
+ul li {
+  list-style: square;
+}
+/*select the li elements that have the class "time" and change to a different color*/
+li .time {
+  color: #f582ae;
+}
+/*select the link and change it's color; */
+a:link {
+  color: #8bd3dd;
+}
+
+a:visited {
+   color: #172c66;
+}
+
+a:hover {
+  color: #33272a;
+}
+
+a:active {
+  color: #f582ae;
+}
+
+/*select h1 and h2 elements and change their case to uppercase*/
+h1, h2 {
+  text-transform: uppercase;
+}
+
+/*option lines for fun and style*/
+li {
+  max-width: 800px;
+}
+
+h2, img {
+  margin-top: 10px;
+}
