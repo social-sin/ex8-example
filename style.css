@@ -1,10 +1,8 @@
+/* Universal Styles */
 * {
-  padding: 0;
   margin: 0;
-}
-
-ul, ol {
-  margin-left: 25px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,55 +13,72 @@ body {
   margin: 20px;
 }
 
-/*change img height to 300px */
-img {
-  height: 300px;
-  width: auto;
-}
-/*change subtitle font size to larger than the default. */
-.subtitle {
-  font-size: 1.3em;
-}
-/*Change the time to font-weight: bold;*/
-.time {
-  font-weight: 700;
+/* Headers */
+h1, h2 {
+  text-transform: uppercase;
+  text-align: center;
 }
 
-/*select the li inside of ingredients to list-style: square*/
+.subtitle {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Images */
+img {
+  width: auto;
+  height: 300px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 25px;
+}
+
 ul li {
   list-style: square;
 }
-/*select the li elements that have the class "time" and change to a different color*/
-li .time {
+
+li {
+  max-width: 800px;
+}
+
+/* Time elements */
+.time {
+  font-weight: 700;
   color: #f582ae;
 }
-/*select the link and change it's color; */
+
+/* Links */
 a:link {
   color: #8bd3dd;
 }
 
 a:visited {
-   color: #172c66;
+  color: #172c66;
 }
 
 a:hover {
   color: #33272a;
+  text-decoration: none;
 }
 
 a:active {
   color: #f582ae;
 }
 
-/*select h1 and h2 elements and change their case to uppercase*/
-h1, h2 {
-  text-transform: uppercase;
-}
-
-/*option lines for fun and style*/
-li {
-  max-width: 800px;
-}
-
+/* Sections spacing */
 h2, img {
   margin-top: 10px;
+}
+
+p {
+  margin-bottom: 10px;
 }
